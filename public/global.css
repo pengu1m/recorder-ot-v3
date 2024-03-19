@@ -1,0 +1,55 @@
+:root {
+    --color-sion-text: #1f2b39;
+    --color-sion-bg: whitesmoke;
+
+    --color-text: whitesmoke;
+    --color-bg: black;
+
+    --font: Consolas;
+
+    --rag-font: 'Courier New', Courier, monospace;
+
+    user-select: none;
+}
+
+body {
+    font-family: var(--font);
+
+    color: var(--color-sion-text);
+    background-color: var(--color-sion-bg);
+
+    overflow: hidden;
+}
+
+.canflow {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+@keyframes darking {
+    from {
+        color: var(--color-sion-text);
+        background-color: var(--color-sion-bg);
+    }
+    to {
+        color: var(--color-text);
+        background-color: var(--color-bg);
+    }
+}
+
+body.darkened {
+    animation: darking 1000ms forwards;
+}
+
+html, body, #app {
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.idarken {
+    color: var(--color-text);
+        background-color: var(--color-bg);
+}
