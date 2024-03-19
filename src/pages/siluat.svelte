@@ -9,7 +9,7 @@
 
     const comments = [
         "자 이제 다시 진행하세요.",
-        "아! 잠깐, 20911 박주원씨 지금입니다."
+        "아! 잠깐, 박주원씨 지금입니다."
     ]
 
     const i = new InteractiveManager()

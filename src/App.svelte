@@ -18,6 +18,7 @@
     import Unnyoung from "./pages/desktop/unnyoung.svelte";
     import Home from "./pages/home.svelte";
     import Index from "./pages/index.svelte";
+    import End from "./pages/end.svelte";
 
   const routes = {
     '/': Home,
@@ -36,7 +37,8 @@
     '/monitor': Monitor,
     '/sion': Sion,
     '/plan': Plan,
-    '/unnyoung': Unnyoung
+    '/unnyoung': Unnyoung,
+    '/end': End
   }
 </script>
 
