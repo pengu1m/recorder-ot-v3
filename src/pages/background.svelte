@@ -27,11 +27,11 @@ _________ .____    .____________  ____  __.      ________ ______________________
 
      */
 
-    const CLICK_GOTO_LIMIT = 3
+    const CLICK_GOTO_LIMIT = 13
 
 
   const add_fucking_notfound = () => {
-    new Array(40).fill(0).forEach(() => {
+    new Array(6).fill(0).forEach(() => {
             notfounds.push({
             description: "404 NoT fouND Not 404 FOund 4No0 4tF undo",
             left: Math.floor(Math.random() * 101),
