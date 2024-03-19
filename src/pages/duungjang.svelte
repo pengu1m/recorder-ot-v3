@@ -124,7 +124,7 @@
     </div>
 
     <div class="video">
-        <video src="https://cdn.jsdelivr.net/gh/pengu1m/recorder-ot-v3@main/public/ot.mp4" muted />
+        <video src="https://github.com/pengu1m/recorder-ot-v3/raw/main/public/ot.mp4" muted />
     </div>
 </main>
 
