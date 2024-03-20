@@ -2,6 +2,7 @@
     import { push } from "svelte-spa-router";
     import { InteractiveManager } from "../lib/interactive";
     import Notfoundwithposition from "../notfoundwithposition.svelte";
+    import { onDestroy } from "svelte";
 
     document.body.className = document.body.className.replace("darkened", "")
 
@@ -59,10 +60,26 @@ _________ .____    .____________  ____  __.      ________ ______________________
     top: 50,
     notfound_showing: true,
     todo: add_fucking_notfound,
-    play_that_mofucking_warning_sound_in_SPACE: true
+    play_that_mofucking_warning_sound_in_SPACE: true,
   })
 
         something_for_rendering = 0
+    })
+
+    const warning_sound = new Audio("/profile/warning.mp3")
+
+    const SPACE_KEY = ' '
+    document.body.addEventListener("keydown", (e) => {
+        if (e.key !== SPACE_KEY) return
+        if (notfounds.length !== 1) return
+
+        warning_sound.currentTime = 0
+        warning_sound.play()
+
+    })
+
+    onDestroy(() => {
+        warning_sound.muted = true
     })
 
     i.run()
