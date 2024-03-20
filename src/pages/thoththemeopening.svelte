@@ -49,7 +49,7 @@
             } else if (e.key === BACKSPACE_KEY) {
                 it.innerText = it.innerText.substr(0, it.innerText.length -1 )
                 count--;
-            } else if (/[a-zA-Z]/.test(e.key)) {
+            } else if (/^[a-zA-Z0-9]+$/.test(e.key)) {
 
                 if (count === 12) return
 
