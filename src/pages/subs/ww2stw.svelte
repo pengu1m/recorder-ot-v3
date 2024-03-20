@@ -23,6 +23,7 @@
         warning_sound.muted = true
     })
 </script>
+
 <div class={`warning ${flash} ${fo}`} style="user-select: none;">
     <div class="warning__meta">
         <div class="warning__header">
