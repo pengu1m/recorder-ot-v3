@@ -27,7 +27,7 @@ _________ .____    .____________  ____  __.      ________ ______________________
 
      */
 
-    const CLICK_GOTO_LIMIT = 3
+    const CLICK_GOTO_LIMIT = 13
 
 
   const add_fucking_notfound = () => {
