@@ -51,8 +51,6 @@
                 count--;
             } else if (/^[a-zA-Z0-9]+$/.test(e.key)) {
 
-                if (count === 12) return
-
                 console.log("영어")
                 it.innerText += "*"
 
@@ -68,7 +66,7 @@
     
     <img src="/siluat/siluat.png" alt="김토트 실루엣 이미지">
 
-    <span style="margin: auto; user-select: none; color: gray;">12자리 비밀번호를 입력하세요</span>
+    <span style="margin: auto; user-select: none; color: gray;">비밀번호를 입력하세요</span>
     <span class="input"></span>
 
     <Notfoundwithposition 
