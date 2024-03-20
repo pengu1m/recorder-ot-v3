@@ -10,14 +10,14 @@
     i.space(() => {
         cn = "foed"
 
-        setTimeout(() => push("/un3"), 300)
+        setTimeout(() => push("/monitor"), 300)
     })
 
     i.run()
 </script>
 
 <main class={cn}>
-    <img src="/plan/plan5.png" alt="plan 5" />
+    <img src="/team.png" alt="plan 5" />
 </main>
 
 <style>
