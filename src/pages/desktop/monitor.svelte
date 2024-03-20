@@ -9,6 +9,7 @@
     const MONITOR3_PATH = "/monitor/monitor3.png"
 
     let mp = MONITOR1_PATH
+    let foed = ""
 
     enum WinSTATE {
         WinClosed,
@@ -81,7 +82,9 @@
             }
 
             if (OK_UNNYOUNG_Y.from < y && y <= OK_UNNYOUNG_Y.to) {
-                push("/unnyoung")
+                foed = "foed"
+                setTimeout(() => push("/unnyoung"), 300)
+                
             }
 
             const OK_PLAN_Y = {
@@ -90,7 +93,8 @@
             }
 
             if (OK_PLAN_Y.from < y && y <= OK_PLAN_Y.to) {
-                push("/plan")
+                foed = "foed"
+                setTimeout(() => push("/plan"), 300)
             }
 
 
@@ -166,7 +170,7 @@
     })
 
 </script>
-<main>
+<main class={foed}>
     <img src={mp} alt="모니터 사진" class="monitor" />
 </main>
 
@@ -187,5 +191,18 @@
         height: 100%;
         user-select: none;
         position: relative;
+    }
+
+    @keyframes fo {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+        }
+    }
+
+    .foed {
+        animation: fo 300ms forwards;
     }
 </style>
