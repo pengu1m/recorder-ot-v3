@@ -71,7 +71,6 @@ _________ .____    .____________  ____  __.      ________ ______________________
     const SPACE_KEY = ' '
     document.body.addEventListener("keydown", (e) => {
         if (e.key !== SPACE_KEY) return
-        if (notfounds.length !== 1) return
 
         warning_sound.currentTime = 0
         warning_sound.play()

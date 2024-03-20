@@ -6,7 +6,7 @@
     const i = new InteractiveManager()
 
     
-    let card1 = { classname: "card", src: "/profile/yunyok.jpg", name: "21324 윤연옥" }
+    let card1 = { classname: "card", src: "/profile/yunyok.jpg", name: "21324 윤연욱" }
     let card2 = { classname: "card", src: "/profile/sion.jpg", name: "21001 강시온" }
     let card3 = { classname: "card", src: "/profile/sunguk.jpg", name: "20811 남궁성욱" }
 
