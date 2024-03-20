@@ -1,6 +1,7 @@
 <script lang="ts">
     import { push } from "svelte-spa-router";
     import { InteractiveManager } from "../../lib/interactive";
+    import { onMount } from "svelte";
 
     let cn = "fied"
 
@@ -9,14 +10,14 @@
     i.space(() => {
         cn = "foed"
 
-        setTimeout(() => push("/un2"), 300)
+        setTimeout(() => push("/monitor"), 300)
     })
 
     i.run()
 </script>
 
 <main class={cn}>
-    <img src="/management/score.png" alt="plan 5" />
+    <img src="/plan/plan5.png" alt="plan 5" />
 </main>
 
 <style>

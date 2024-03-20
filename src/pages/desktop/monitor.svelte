@@ -4,9 +4,9 @@
 
     document.body.className = "idarken";
 
-    const MONITOR1_PATH = "/monitor/monitor1.png"
-    const MONITOR2_PATH = "/monitor/monitor2.png"
-    const MONITOR3_PATH = "/monitor/monitor3.png"
+    const MONITOR1_PATH = "/monitor/monitor1.jpg"
+    const MONITOR2_PATH = "/monitor/monitor2.jpg"
+    const MONITOR3_PATH = "/monitor/monitor3.jpg"
 
     let mp = MONITOR1_PATH
     let foed = ""
@@ -94,7 +94,7 @@
 
             if (OK_PLAN_Y.from < y && y <= OK_PLAN_Y.to) {
                 foed = "foed"
-                setTimeout(() => push("/plan"), 300)
+                setTimeout(() => push("/plan1"), 300)
             }
 
 

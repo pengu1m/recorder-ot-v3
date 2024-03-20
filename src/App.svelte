@@ -14,7 +14,11 @@
     import Ww3stw from "./pages/subs/ww3stw.svelte";
     import Monitor from "./pages/desktop/monitor.svelte";
     import Sion from "./pages/desktop/sion.svelte";
-    import Plan from "./pages/desktop/plan.svelte";
+    import Plan1 from "./pages/desktop/plan1.svelte";
+    import Un2 from "./pages/desktop/un2.svelte";
+    import Un3 from "./pages/desktop/un3.svelte";
+    import Un4 from "./pages/desktop/un4.svelte";
+    import Un5 from "./pages/desktop/un5.svelte";
     import Unnyoung from "./pages/desktop/unnyoung.svelte";
     import Home from "./pages/home.svelte";
     import Index from "./pages/index.svelte";
@@ -36,7 +40,11 @@
     '/s/3stw': Ww3stw,
     '/monitor': Monitor,
     '/sion': Sion,
-    '/plan': Plan,
+    '/plan1': Plan1,
+    '/un2': Un2,
+    '/un3': Un3,
+    '/un4': Un4,
+    '/un5': Un5,
     '/unnyoung': Unnyoung,
     '/end': End
   }
